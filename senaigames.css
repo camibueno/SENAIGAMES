@@ -1,0 +1,335 @@
+html,body{
+    background-color: #282a58;
+}
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #010A13;
+    border-bottom: 0.4px solid #9c4594;
+    height: 90px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+}
+.cabecalho-menu-item{
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    color: #6b356d;
+    font-size: 35px;
+    transition: .4s;
+}
+
+.cabecalho-menu-item:hover{
+    color: #d7cedc;
+}
+.logoimg{
+    width: 10%;
+}
+.logoimg:hover{
+    filter: contrast(120%);
+    filter: brightness(150%);
+    cursor: pointer;
+}
+.slider{
+    display: flex;  
+    align-items:flex-end;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #9c4594;
+    box-shadow: 0 14px 28px black;
+    margin-bottom: 30px;
+    transition: .4s;
+}
+
+.slider:hover{
+    filter: contrast(120%);
+    filter: brightness(120%);
+    cursor: pointer;    
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+    
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.slides input{
+    display: none;
+}
+.figureimagens{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-content: center;
+}
+.asideimg{
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    left: 0px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 34px;
+    color: #d7cedc;
+    width: 780px;
+    text-align: center;
+    text-shadow: 2px 2px #6b356d;
+
+}
+.imgslide{
+    filter: brightness(50%);
+}
+#imgroblox{
+    filter: brightness(25%);
+}
+#aside1{
+    bottom: 6px;
+    left: 20px;
+}
+#aside2{  
+    bottom: 49px;
+    left: 20px;
+}
+#aside3{ 
+    bottom: 20px;
+    left: 20px;
+}
+#aside4{
+    bottom: 50px;
+    left: 20px;
+}
+.slide{
+    width: 25%;
+    position:relative;
+}
+.slide img{
+    width: 800px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    margin-bottom: 367px;
+    
+}
+.manual-btn{
+    border: 2px solid black;
+    padding: 5px;
+    width: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: black;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #282a58;
+    padding: 5px;
+    width: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 20px;
+}
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked~.navigation-auto .auto-btn1{
+    background-color: black;
+}
+#radio2:checked~.navigation-auto .auto-btn2{
+    background-color: black;
+}
+#radio3:checked~.navigation-auto .auto-btn3{
+    background-color: black;
+}
+#radio4:checked~.navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+.titulogames{
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    color: #9c4594;
+    text-shadow: 1px 1px 1px #6b356d;
+    
+}
+
+.fundin{
+    display: block;
+    margin: auto;
+    background-color: black;
+    width: 84.75%;
+    padding-right: 8px;
+    border-radius: 3px;
+    box-shadow: 0 14px 28px black;
+    border: 0.4px solid #9c4594;
+    transition: .4s;
+}
+
+.fundin:hover{
+    transform: scale(1.05);
+}
+
+.jogos h3{
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 0px;
+    color: #9c4594;
+    text-shadow: 1px 1px 1px #6b356d;
+}
+
+.jogos p{
+    font-family: 'Secular One', sans-serif;
+    color: lightgray;
+    text-shadow: 1px 1px 2px #6b356d; 
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.comprar span{
+    color: black;
+    text-shadow: 1px 1px 2px #6b356d;
+    font-family:'Bebas Neue', cursive;
+    padding-top: 10px;
+}
+
+.comprar{
+    display:Block;
+    background-color: #9c4594;
+    width: 90%;
+    vertical-align: baseline;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.comprar:hover{
+    transform: scale(1.1);
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogos{
+    width: 20%;
+    height: 400px;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px black;
+    transition: .4s;
+    background: #010A13;
+    padding: 5px 5px;
+    padding-bottom: 10px;
+    border: 0.4px solid #9c4594;
+    margin-bottom: 10px;
+}
+
+.jogos img{
+    border-radius: 3px;
+}
+
+.jogos:hover{
+    transform: scale(1.05);
+}
+.rodape{
+    background-color: #010A13;
+    display: flex;
+    margin-top: 40px;
+ }
+ #logomanos{
+    width: 50px;
+    padding: 0;
+    border-left: 10px;
+ }
+ .manosinc{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+
+ }
+ #copyright{
+    display: flex;
+    justify-content: end;
+    
+    color: aliceblue;
+ }
+
+ .subtitulo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #9c4594;
+    font-size: 50px;
+    text-align: center;
+ }
+
+.nomej{
+    color: #9c4594;
+    text-shadow: none;
+}
+

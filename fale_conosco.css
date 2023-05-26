@@ -1,0 +1,128 @@
+html,body{
+    background-color: #282a58;
+}
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.cabecalho{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: #010A13;
+   border-bottom: 0.4px solid #9c4594;
+   height: 90px;
+   font-family: 'Bebas Neue', cursive;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+}
+.cabecalho-menu-item{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #6b356d;
+    font-size: 35px;
+    transition: .4s;
+}
+
+.cabecalho-menu-item:hover{
+    color: #d7cedc;
+ }
+
+.logoimg{
+    width: 10%;
+}
+
+.logoimg:hover{
+    filter: contrast(120%);
+    filter: brightness(150%);
+    cursor: pointer;
+ }
+
+.texto-principal {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.formulario {
+    font-weight: 10;
+    color: blcak;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+
+.titulo {
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    color: #6b356d;
+    font-weight: 200;
+}
+
+.subtitulo {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+    font-weight: 150;
+}
+
+.label {
+    padding-bottom: 14px;
+}
+
+.botao-enviar {
+    margin-top: 20px;
+    background-color: #6b356d;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 2px 10px black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 43px;
+}
+.botao-enviar:hover {
+    background-color: lightgrey;
+}
+
+.rodape{
+    background-color: #010A13;
+    display: flex;
+ }
+ #logomanos{
+    width: 50px;
+    padding: 0;
+    border-left: 10px;
+ }
+ .manosinc{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+
+ }
+ #copyright{
+    display: flex;
+    justify-content: end;
+    color: aliceblue;
+ }

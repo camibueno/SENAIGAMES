@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="main">
+        <div class="cadastro_center">
+            <img src="Senaigamespng.png" alt="" class = "img_senai">    
+            <h1>Cadastro</h1>
+            <form action = "cadastro.php" method = "POST">
+            <div class="input_txt">
+                <label>Usuario</label>
+                <input name = "usuario" type = "text" placeholder="Crie um usuário">
+            </div>
+            <div class="input_txt">
+                <label>Senha</label>
+                <input name = "senha" type = "password" placeholder="Crie uma senha">
+            </div>
+            <div class="input_txt">
+                <label>Confirme a senha</label>
+                <input name = "conf_senha" type = "password" placeholder="Confirme sua senha ">
+            </div>
+            <div class="input_txt">
+                <label>Email</label>
+                <input name = "email" type = "email" placeholder="Digite seu email">
+            </div>
+            <div class="input_txt">
+                <label>Telefone</label>
+                <input name = "tel" type = "tel" placeholder="Digite seu telefone" maxlength="11">
+            </div>
+
+
+            <button class = "cadastrar_btn" type ="submit">Cadastrar</button>
+        </form>            
+
+        <br>
+        <h2>Já possui uma conta?</h2>
+        <a href = "login.html"">Realize seu Login!</a>
+        </div>
+    </div>
+</body>
+</html>

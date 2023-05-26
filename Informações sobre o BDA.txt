@@ -1,0 +1,11 @@
+Para implementação do banco de dados é necessário a criação local, por falta de verba não houve a possibilidade de alocar o serviço online.
+
+O nome do banco de dados deve ser senaigames, sem senha e com usuario definido como root.
+Criação de 2 tables:
+    - user: (usuario_user, senha_user, email_user, telefone_user);
+            PrimaryKey sendo email_user e todos atributos como unique;
+
+    - fale_conosco: (nome_fcn, email_fnc, telefone_fnc, comentario_fnc);
+            PrimaryKey sendo email_fnc e todos atributos como unique;
+
+            ARTHUR MUDA ESSA PORRA QUANDO CHEGAR NO CURSO PRA ALGO MAIS FÁCIL DE ENTENDER

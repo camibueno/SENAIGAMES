@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Secular+One&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="main">
+        <div class="login_center">
+            <img src="Senaigamespng.png" alt="" class = "img_senai">    
+            <h1>Login</h1>
+            <form action="validarUsuario.php" method="POST">
+                <div class="input_txt">
+                    <label for = "usuario">Usuário</label>
+                    <input name = "usuariotxt" type="text" placeholder="Digite seu usuário">    
+                </div>
+    
+                <div class="input_txt">
+                    <label for = "senha">Senha</label>
+                    <input name = "senha" type="password" placeholder="Digite sua senha">
+                </div>
+                <div class="manter">
+                    <input type="checkbox" class="manterconectado" name="manterconectado" value="Manter Conectado">
+                    <label for="vehicle1"> Manter Conectado</label><br> 
+                </div>
+                <input name = "submit" class = "login_btn" type="submit" value = "Login">                
+            </form>  
+            <br>
+            <h2>Não tem uma conta?</h2>
+            <a href = "cadastro.html"">Realize seu cadastro!</a>
+        </div>
+    </div>
+</body>
+</html>

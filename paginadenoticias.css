@@ -1,0 +1,240 @@
+html,body{
+   background-color: #282a58;
+}
+*{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   
+}
+.cabecalho{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: #010A13;
+   border-bottom: 0.4px solid #9c4594;
+   height: 90px;
+   font-family: 'Bebas Neue', cursive;
+}
+.cabecalho-menu{
+   display: flex;
+   align-items: center;
+}
+.cabecalho-menu-item{
+   display: flex;
+   justify-content:center;
+   text-decoration: none;
+   color: #6b356d;
+   font-size: 35px;
+   transition: .4s;
+}
+
+.cabecalho-menu-item:hover{
+   color: #d7cedc;
+}
+.logoimg{
+   width: 10%;
+}
+.logoimg:hover{
+   filter: contrast(120%);
+   filter: brightness(150%);
+   cursor: pointer;
+}
+.slider{
+   display: flex;  
+   align-items:flex-end;
+   margin: 0 auto;
+   width: 800px;
+   height: 400px;
+   overflow: hidden;
+   margin-top: 20px;
+   border-radius: 10px;
+   border: 2px solid #9c4594;
+   box-shadow: 0 14px 28px black;
+   margin-bottom: 30px;
+   transition: .4s;
+}
+
+.slider:hover{
+   filter: contrast(120%);
+   filter: brightness(120%);
+   cursor: pointer;    
+}
+.slides{
+   width: 400%;
+   height: 400px;
+   display: flex;
+   
+}
+.logoimg{
+    width: 10%;
+}
+.noticias-escopo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+.primeiras-noticias{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+}
+
+.figure-noticias-do-escopo{
+    position: relative;
+    display: inline-block;      
+} 
+
+.aside-primeiras-noticias{
+    height: 125px;
+    left: 2px;
+    position: absolute;
+    bottom: 1px;
+    background-color: rgb(146,148,169,0.5);
+    font-family: 'Bebas Neue', cursive;
+    font-size:22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.aside-primeiras-noticias:hover{
+    cursor: pointer;
+}
+.img-container{
+    overflow: hidden;
+    border: 2px solid #9c4594;
+    box-shadow: 0 14px 28px black;
+    height: 500px;
+ }
+ .img-container img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .img-container:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+ }
+
+ .subtitulo{
+    margin: 40px 0px 20px 65px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #9c4594;
+    font-size: 50px;
+ }
+
+ .segunda-noticias{
+    display: flex;
+    gap: 10;
+    justify-content: center;
+ }
+ .segunda-noticias-div{
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    font-family: 'Bebas Neue', cursive;
+    color: #7070ac;
+    
+ }
+ .segunda-noticia-img{
+    border-radius: 10px;
+    border: 2px solid #413d8b;
+    box-shadow: 0 5px 28px #282a58;
+ }
+ .segunda-noticias-texto{
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+ }
+ .segunda-noticia-img:hover{
+    filter:brightness(1.5);
+    cursor: pointer;
+ }
+ .segunda-noticias-texto:hover{
+    cursor: pointer;
+ }
+ #subtitulo2{
+    margin-top: 20px;
+
+
+ }
+ .terceira-noticias-img{
+    width: 15%;
+    margin-bottom: 15px;
+ }
+ .terceira-noticias-div{
+    display: inline-block;
+    flex-direction: row;
+    
+ }
+ .terceira-noticias-manchete{
+    text-align: justify;
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.terceira-noticias{
+    margin-left: 65px;
+}
+.terceira-noticia-noticia{
+    border-top: 0.4px solid #7070ac;
+    width: 70%;
+    padding-top: 15px;
+    margin-bottom: 15px;
+ }
+ 
+ #terceira-noticias-noticia4{
+    border-bottom: 0.4px solid #7070ac;
+    margin-bottom: 80px;
+ }
+ .terceira-noticias-titulo{
+    font-family: 'Bebas Neue', cursive;
+    color: #9c4594;
+ }
+ .terceira-noticias-texto{
+    font-family: 'Secular One', sans-serif;
+    color: #7070ac;
+ }
+ .terceira-noticias-titulo:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+ .terceira-noticias-img:hover{
+    filter: contrast(120%);
+    filter: brightness(120%);
+    cursor: pointer;
+ }
+
+ .rodape{
+    background-color: #010A13;
+    display: flex;
+
+ }
+ #logomanos{
+    width: 50px;
+    padding: 0;
+    border-left: 10px;
+ }
+ .manosinc{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+
+ }
+ #copyright{
+    display: flex;
+    justify-content: end;
+    
+    color: aliceblue;
+ }
+

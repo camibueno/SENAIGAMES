@@ -1,0 +1,51 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #282a58;
+}
+
+input{
+    outline: none;
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+
+.cadastro_center{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0px 40px 40px 40px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 10px 40px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.input_txt{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.cadastrar_btn{
+    margin-top: 25px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.img_senai{
+    height: 250px;
+}
